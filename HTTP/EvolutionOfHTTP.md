@@ -69,6 +69,9 @@ Content-Type: text/html
 ### 언어, 인코딩 혹은 타입을 포함한 컨텐츠 협상이 도입
 - 클라이언트와 서버로 하여금 교환하려는 가장 적합한 컨텐츠에 대한 동의를 가능케 했습니다. (??)
 
+### host 헤더
+- IP 주소는 동일한데 서로 다른 주소의 도메인으로 요청했을 때의 통신의 처리가 가능하게 되었다.
+
 
 ## Reference
 - https://developer.mozilla.org/ko/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP
