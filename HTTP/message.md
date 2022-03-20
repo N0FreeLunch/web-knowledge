@@ -20,3 +20,5 @@
 - HTTP/2
 - 성능 최적화를 위해 사람이 읽고 해석하기 어려운 방식으로 바뀌었다.
 
+## Reference
+- https://developer.mozilla.org/ko/docs/Web/HTTP/Messages
