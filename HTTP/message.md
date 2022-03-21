@@ -269,5 +269,19 @@ HTTP/1.1 404 Not Found.
 - Content-Length와 같은 본문에 적용되는 헤더.
 - 본문의 내용이 없다면 엔티티 헤더는 전송되지 않는다.
 
+### 본문
+- 응답의 마지막 부분에 들어간다.
+- 모든 응답에 본문이 들어가는 것은 아니다. 201, 204과 같은 상태 코드를 가진 응답에는 보통 본문이 없다.
+
+#### 길이가 알려진 단일 파일
+- Content-Type와 Content-Length으로 정의한다.
+
+#### 길이를 모르는 단일 파일
+- Transfer-Encoding 헤더 필드 이름의 값이 `chunked`으로 설정되어 있다.
+- 파일은 chunked 로 나눠져 인코딩 되어 있다.
+
+#### 다중 리소스 본문
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types#multipartform-data
+
 ## Reference
 - https://developer.mozilla.org/ko/docs/Web/HTTP/Messages
