@@ -1,6 +1,6 @@
 ## HTTP
-1. [http](./http)
-2. [structure](./structure)
-3. [api](./api)
-4. [EvolutionOfHTTP](./EvolutionOfHTTP)
-5. [message](./message)
+1. [http](./http.md)
+2. [structure](./structure.md)
+3. [api](./api.md)
+4. [EvolutionOfHTTP](./EvolutionOfHTTP.md)
+5. [message](./message.md)
