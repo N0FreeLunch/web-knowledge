@@ -29,6 +29,9 @@
 - HTTP pipeling : 커넥션 연결 - 요청A - 요청B - 요청C - 응답A - 응답B - 응답C - 커넥션 종료
 
 
+## Reference
+- https://developer.mozilla.org/ko/docs/Web/HTTP/Connection_management_in_HTTP_1.x
+
 
 
 
