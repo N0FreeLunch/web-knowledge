@@ -28,6 +28,13 @@
 - persistent connection : 커넥션 연결 - 요청A - 응답A - 요청B - 응답B - 요청C - 응답C - 커넥션 종료
 - HTTP pipeling : 커넥션 연결 - 요청A - 요청B - 요청C - 응답A - 응답B - 응답C - 커넥션 종료
 
+## 단기 커넥션
+- HTTP/1.0의 기본 커넥션은 단기 커넥션
+- 하나의 HTTP 요청은 서로 독립적인 커넥션 위에서 실행 된다.
+- 통신 프로토콜을 주고 받기 전에 물리적인 연결을 위한 채널이 만들어져야 하는데 이를 핸드셰이크라고 한다.
+- HTTP 통신을 이루기 전에 TCP의 헨드세이크 과정이 일어나야 한다.
+- TCP 헨드세이크는 직렬화 되므로 하나의 TCP 연결이 끝난 후에 다음 TCP 요청이 이뤄질 수 있다.
+
 
 ## Reference
 - https://developer.mozilla.org/ko/docs/Web/HTTP/Connection_management_in_HTTP_1.x
